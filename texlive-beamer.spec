@@ -1,3 +1,9 @@
+# revision 24067
+# category Package
+# catalog-ctan /macros/latex/contrib/beamer
+# catalog-date 2011-09-21 23:25:21 +0200
+# catalog-license gpl2
+# catalog-version 3.12
 Name:		texlive-beamer
 Version:	3.12
 Release:	1
@@ -366,6 +372,7 @@ other language environments.
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.en.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.en.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.fr.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -376,3 +383,5 @@ other language environments.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
