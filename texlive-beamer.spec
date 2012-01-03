@@ -6,7 +6,7 @@
 # catalog-version 3.12
 Name:		texlive-beamer
 Version:	3.12
-Release:	1
+Release:	2
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer
