@@ -1,12 +1,12 @@
-# revision 24067
+# revision 25484
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2011-09-21 23:25:21 +0200
+# catalog-date 2012-02-22 23:12:26 +0100
 # catalog-license gpl2
-# catalog-version 3.12
+# catalog-version 3.13
 Name:		texlive-beamer
-Version:	3.12
-Release:	2
+Version:	3.13
+Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer
@@ -166,52 +166,55 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeWarsaw.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeboxes.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemedefault.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemebars.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemeclassic.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemecompatibility.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemelined.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemeplain.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemeshadow.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemesidebar.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemesplit.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemetree.sty
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-French.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-German.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Norsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Serbian.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-French.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-German.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Serbian.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-English.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-French.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-German.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Serbian.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-English.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-French.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-German.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Norsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Serbian.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-French.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-German.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Norsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Serbian.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-French.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-German.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Norsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Serbian.dict
@@ -323,15 +326,12 @@ other language environments.
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeWarsaw.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeboxes.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemedefault.pdf
-%doc %{_texmfdistdir}/doc/latex/beamer/doc/beameruserguide.idx
-%doc %{_texmfdistdir}/doc/latex/beamer/doc/beameruserguide.out
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beameruserguide.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beameruserguide.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/licenses/LICENSE
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/themeexamples/beamerthemeexample.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/themeexamples/beamerthememakeexamples.sh
 %doc %{_texmfdistdir}/doc/latex/beamer/emacs/beamer.el
-%doc %{_texmfdistdir}/doc/latex/beamer/examples/Makefile
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-conference-talk/beamerexample-conference-talk.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-body.tex
@@ -344,9 +344,6 @@ other language environments.
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-pic6.jpg
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-style.tex
-%doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-conference-talk.pdf
-%doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-lecture-beamer-version.pdf
-%doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-lecture-print-version.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/lyx-based-presentation/beamerexample-lyx.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.tex
