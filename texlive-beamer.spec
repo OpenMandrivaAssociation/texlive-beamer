@@ -1,16 +1,16 @@
-# revision 25484
+# revision 25598
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2012-02-22 23:12:26 +0100
-# catalog-license gpl2
-# catalog-version 3.13
+# catalog-date 2012-03-10 21:15:25 +0100
+# catalog-license gpl
+# catalog-version 3.15
 Name:		texlive-beamer
-Version:	3.13
+Version:	3.15
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer
-License:	GPL2
+License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.doc.tar.xz
 BuildArch:	noarch
@@ -73,6 +73,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/beamerbaseframecomponents.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbaseframesize.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbaselocalstructure.sty
+%{_texmfdistdir}/tex/latex/beamer/beamerbasemisc.log
 %{_texmfdistdir}/tex/latex/beamer/beamerbasemisc.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasemodes.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasenavigation.sty
@@ -115,6 +116,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemeseagull.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemeseahorse.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemesidebartab.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemespruce.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemestructure.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemewhale.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemewolverine.sty
@@ -148,6 +150,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeCopenhagen.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeDarmstadt.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeDresden.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeEastLansing.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeFrankfurt.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeGoettingen.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeHannover.sty
@@ -276,6 +279,7 @@ other language environments.
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugcolorthemeseagull.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugcolorthemeseahorse.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugcolorthemesidebartab.pdf
+%doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugcolorthemespruce.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugcolorthemestructure.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugcolorthemewhale.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugcolorthemewolverine.pdf
@@ -308,6 +312,7 @@ other language environments.
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeCopenhagen.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeDarmstadt.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeDresden.pdf
+%doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeEastLansing.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeFrankfurt.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeGoettingen.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/beamerugthemeHannover.pdf
@@ -332,6 +337,7 @@ other language environments.
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/themeexamples/beamerthemeexample.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/doc/themeexamples/beamerthememakeexamples.sh
 %doc %{_texmfdistdir}/doc/latex/beamer/emacs/beamer.el
+%doc %{_texmfdistdir}/doc/latex/beamer/examples/Makefile
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-conference-talk/beamerexample-conference-talk.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-beamer-version.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-body.tex
@@ -344,6 +350,9 @@ other language environments.
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-pic6.jpg
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-print-version.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/a-lecture/beamerexample-lecture-style.tex
+%doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-conference-talk.pdf
+%doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-lecture-beamer-version.pdf
+%doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-lecture-print-version.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/lyx-based-presentation/beamerexample-lyx.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.tex
