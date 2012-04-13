@@ -1,11 +1,11 @@
-# revision 25598
+# revision 25788
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2012-03-10 21:15:25 +0100
+# catalog-date 2012-03-30 01:32:13 +0200
 # catalog-license gpl
-# catalog-version 3.15
+# catalog-version 3.16
 Name:		texlive-beamer
-Version:	3.15
+Version:	3.16
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
@@ -73,7 +73,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/beamerbaseframecomponents.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbaseframesize.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbaselocalstructure.sty
-%{_texmfdistdir}/tex/latex/beamer/beamerbasemisc.log
 %{_texmfdistdir}/tex/latex/beamer/beamerbasemisc.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasemodes.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasenavigation.sty
@@ -169,6 +168,15 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeWarsaw.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeboxes.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemedefault.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemebars.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemeclassic.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemecompatibility.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemelined.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemeplain.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemeshadow.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemesidebar.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemesplit.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/theme/compatibility/beamerthemetree.sty
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-English.dict
