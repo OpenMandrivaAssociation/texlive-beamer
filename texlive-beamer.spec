@@ -1,11 +1,11 @@
-# revision 25788
+# revision 26288
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2012-03-30 01:32:13 +0200
+# catalog-date 2012-05-10 17:51:02 +0200
 # catalog-license gpl
-# catalog-version 3.16
+# catalog-version 3.18
 Name:		texlive-beamer
-Version:	3.16
+Version:	3.18
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
@@ -59,6 +59,10 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/art/beamericonbook.eps
 %{_texmfdistdir}/tex/latex/beamer/art/beamericonbook.pdf
 %{_texmfdistdir}/tex/latex/beamer/art/beamericonbook.tex
+%{_texmfdistdir}/tex/latex/beamer/art/beamericononline.20.eps
+%{_texmfdistdir}/tex/latex/beamer/art/beamericononline.20.pdf
+%{_texmfdistdir}/tex/latex/beamer/art/beamericononline.eps
+%{_texmfdistdir}/tex/latex/beamer/art/beamericononline.pdf
 %{_texmfdistdir}/tex/latex/beamer/beamer.cls
 %{_texmfdistdir}/tex/latex/beamer/beamerarticle.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasearticle.sty
@@ -139,6 +143,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/themes/outer/beamerouterthemesmoothtree.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/outer/beamerouterthemesplit.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/outer/beamerouterthemetree.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/outer/beameroutherthemeshadow.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeAnnArbor.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeAntibes.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeBergen.sty
