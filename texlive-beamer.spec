@@ -1,11 +1,11 @@
-# revision 26288
+# revision 26788
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2012-05-10 17:51:02 +0200
+# catalog-date 2012-06-01 12:40:06 +0200
 # catalog-license gpl
-# catalog-version 3.18
+# catalog-version 3.20
 Name:		texlive-beamer
-Version:	3.18
+Version:	3.20
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
@@ -143,7 +143,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/themes/outer/beamerouterthemesmoothtree.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/outer/beamerouterthemesplit.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/outer/beamerouterthemetree.sty
-%{_texmfdistdir}/tex/latex/beamer/themes/outer/beameroutherthemeshadow.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeAnnArbor.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeAntibes.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/theme/beamerthemeBergen.sty
@@ -189,6 +188,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-German.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Norsk.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Nynorsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Serbian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Brazilian.dict
@@ -214,6 +214,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-German.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Norsk.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Nynorsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Serbian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Brazilian.dict
@@ -223,6 +224,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-German.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Norsk.dict
+%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Nynorsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Serbian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Brazilian.dict
