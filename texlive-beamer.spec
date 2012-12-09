@@ -1,11 +1,11 @@
-# revision 27751
+# revision 26788
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2012-09-19 23:06:07 +0200
+# catalog-date 2012-06-01 12:40:06 +0200
 # catalog-license gpl
-# catalog-version 3.22
+# catalog-version 3.20
 Name:		texlive-beamer
-Version:	3.22
+Version:	3.20
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
@@ -191,7 +191,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Nynorsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Serbian.dict
-%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-basic-dictionary/translator-basic-dictionary-Spanish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-English.dict
@@ -200,7 +199,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Serbian.dict
-%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-bibliography-dictionary/translator-bibliography-dictionary-Spanish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-English.dict
@@ -209,7 +207,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Greek.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Serbian.dict
-%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-environment-dictionary/translator-environment-dictionary-Spanish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-English.dict
@@ -220,7 +217,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Nynorsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Serbian.dict
-%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-months-dictionary/translator-months-dictionary-Spanish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-English.dict
@@ -231,7 +227,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Nynorsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Serbian.dict
-%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-numbers-dictionary/translator-numbers-dictionary-Spanish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Brazilian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Croatian.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-English.dict
@@ -241,7 +236,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Norsk.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Polish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Serbian.dict
-%{_texmfdistdir}/tex/latex/beamer/translator/dicts/translator-theorem-dictionary/translator-theorem-dictionary-Spanish.dict
 %{_texmfdistdir}/tex/latex/beamer/translator/translator-language-mappings.tex
 %{_texmfdistdir}/tex/latex/beamer/translator/translator.sty
 %doc %{_texmfdistdir}/doc/latex/beamer/AUTHORS
@@ -400,3 +394,38 @@ other language environments.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.20-1
++ Revision: 811969
+- Update to latest release.
+
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.18-1
++ Revision: 804465
+- Update to latest release.
+
+* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.16-1
++ Revision: 790529
+- Update to latest release.
+
+* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.15-1
++ Revision: 787570
+- Update to latest release.
+
+* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.13-1
++ Revision: 780557
+- Update to latest release.
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.12-2
++ Revision: 749526
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.12-1
++ Revision: 717894
+- texlive-beamer
+- texlive-beamer
+- texlive-beamer
+- texlive-beamer
+- texlive-beamer
+
