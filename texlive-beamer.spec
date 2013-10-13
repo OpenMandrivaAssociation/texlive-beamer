@@ -1,11 +1,11 @@
-# revision 27751
+# revision 31858
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2012-09-19 23:06:07 +0200
+# catalog-date 2013-10-06 20:13:07 +0200
 # catalog-license gpl
-# catalog-version 3.22
+# catalog-version 3.30
 Name:		texlive-beamer
-Version:	3.22
+Version:	3.30
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
@@ -79,6 +79,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/beamerbaselocalstructure.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasemisc.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasemodes.sty
+%{_texmfdistdir}/tex/latex/beamer/beamerbasenavigation.log
 %{_texmfdistdir}/tex/latex/beamer/beamerbasenavigation.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasenotes.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbaseoptions.sty
@@ -114,6 +115,7 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemedove.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemefly.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemelily.sty
+%{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthememonarca.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemeorchid.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemerose.sty
 %{_texmfdistdir}/tex/latex/beamer/themes/color/beamercolorthemeseagull.sty
@@ -374,20 +376,13 @@ other language environments.
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-conference-talk.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-lecture-beamer-version.pdf
 %doc %{_texmfdistdir}/doc/latex/beamer/examples/beamerexample-lecture-print-version.pdf
-%doc %{_texmfdistdir}/doc/latex/beamer/examples/lyx-based-presentation/beamerexample-lyx.lyx
-%doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.de.tex
-%doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.en.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.en.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/conference-talks/conference-ornate-20min.fr.tex
-%doc %{_texmfdistdir}/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.de.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.de.tex
-%doc %{_texmfdistdir}/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.en.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.en.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/generic-talks/generic-ornate-15min-45min.fr.tex
-%doc %{_texmfdistdir}/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.de.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.de.tex
-%doc %{_texmfdistdir}/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.en.lyx
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.en.tex
 %doc %{_texmfdistdir}/doc/latex/beamer/solutions/short-talks/speaker_introduction-ornate-2min.fr.tex
 
@@ -400,42 +395,3 @@ other language environments.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-
-
-%changelog
-* Thu Oct 25 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.22-1
-+ Revision: 819794
-- Update to latest release.
-
-* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.20-1
-+ Revision: 811969
-- Update to latest release.
-
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.18-1
-+ Revision: 804465
-- Update to latest release.
-
-* Fri Apr 13 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.16-1
-+ Revision: 790529
-- Update to latest release.
-
-* Tue Mar 27 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.15-1
-+ Revision: 787570
-- Update to latest release.
-
-* Fri Feb 24 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.13-1
-+ Revision: 780557
-- Update to latest release.
-
-* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 3.12-2
-+ Revision: 749526
-- Rebuild to reduce used resources
-
-* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 3.12-1
-+ Revision: 717894
-- texlive-beamer
-- texlive-beamer
-- texlive-beamer
-- texlive-beamer
-- texlive-beamer
-
