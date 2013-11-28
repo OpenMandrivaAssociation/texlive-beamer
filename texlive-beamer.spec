@@ -1,11 +1,11 @@
-# revision 31858
+# revision 32232
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2013-10-06 20:13:07 +0200
+# catalog-date 2013-11-24 13:34:05 +0100
 # catalog-license gpl
-# catalog-version 3.30
+# catalog-version 3.32
 Name:		texlive-beamer
-Version:	3.30
+Version:	3.32
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
@@ -79,7 +79,6 @@ other language environments.
 %{_texmfdistdir}/tex/latex/beamer/beamerbaselocalstructure.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasemisc.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasemodes.sty
-%{_texmfdistdir}/tex/latex/beamer/beamerbasenavigation.log
 %{_texmfdistdir}/tex/latex/beamer/beamerbasenavigation.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbasenotes.sty
 %{_texmfdistdir}/tex/latex/beamer/beamerbaseoptions.sty
