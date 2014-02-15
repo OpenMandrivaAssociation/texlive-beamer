@@ -1,12 +1,12 @@
-# revision 32232
+# revision 32491
 # category Package
 # catalog-ctan /macros/latex/contrib/beamer
-# catalog-date 2013-11-24 13:34:05 +0100
+# catalog-date 2013-12-25 22:16:09 +0100
 # catalog-license gpl
-# catalog-version 3.32
+# catalog-version 3.33
 Name:		texlive-beamer
-Version:	3.32
-Release:	5
+Version:	3.33
+Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer
