@@ -1,5 +1,5 @@
 Name:		texlive-beamer
-Version:	3.49
+Version:	3.50
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
