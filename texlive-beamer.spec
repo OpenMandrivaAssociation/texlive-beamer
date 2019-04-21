@@ -1,6 +1,6 @@
 Name:		texlive-beamer
-Version:	3.50
-Release:	3
+Version:	3.55
+Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer
