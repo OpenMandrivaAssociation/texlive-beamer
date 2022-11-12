@@ -1,12 +1,12 @@
 Name:		texlive-beamer
-Version:	3.55
+Version:	64388
 Release:	1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.doc.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.r64388.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.doc.r64388.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
@@ -34,12 +34,12 @@ package, which is used for customising the package for use in
 other language environments.
 
 %post
-    %{_sbindir}/texlive.post
+%{_sbindir}/texlive.post
 
 %postun
-    if [ $1 -eq 0 ]; then
+if [ $1 -eq 0 ]; then
 	%{_sbindir}/texlive.post
-    fi
+fi
 
 #-----------------------------------------------------------------------
 %files
@@ -48,7 +48,7 @@ other language environments.
 
 #-----------------------------------------------------------------------
 %prep
-%setup -c -a0 -a1
+%autosetup -p1 -c -a1
 
 %build
 
