@@ -1,6 +1,6 @@
 Name:		texlive-beamer
 Version:	64388
-Release:	1
+Release:	2
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/beamer
