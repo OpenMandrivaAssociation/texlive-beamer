@@ -1,57 +1,46 @@
-Name:		texlive-beamer
-Version:	69316
-Release:	1
+%global tl_name beamer
+%global tl_revision 78101
+
+Name:		texlive-%{tl_name}
+Epoch:		1
+Version:	3.77
+Release:	%{tl_revision}.1
 Summary:	A LaTeX class for producing presentations and slides
 Group:		Publishing
 URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/beamer
-License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.r%{version}.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.doc.r%{version}.tar.xz
+License:	lppl1.3c gpl2+ fdl
+Source0:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.r%{tl_revision}.tar.xz
+Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/beamer.doc.r%{tl_revision}.tar.xz
 BuildArch:	noarch
+BuildSystem:	texlive
 BuildRequires:	texlive-tlpkg
-Requires(pre):	texlive-tlpkg
-Requires(post):	texlive-kpathsea
-Requires:	texlive-pgf
-Requires:	texlive-xcolor
+%texlive_base_requires
+Requires:	texlive(amscls)
+Requires:	texlive(amsfonts)
+Requires:	texlive(amsmath)
+Requires:	texlive(atbegshi)
+Requires:	texlive(etoolbox)
+Requires:	texlive(geometry)
+Requires:	texlive(hyperref)
+Requires:	texlive(iftex)
+Requires:	texlive(pgf)
+Requires:	texlive(translator)
+Requires:	texlive(xcolor)
+Provides:	texlive(%{tl_name}) = %{tl_revision}
 
 %description
-The beamer LaTeX class can be used for producing slides. Its
-functionality is similar to Prosper but does not need any
-external programs and can directly produce a presentation using
-pdflatex. Beamer uses pgf for pdf/ps independent graphics.
-Frames are created using \frame{...}, and a frame can build
-multiple slides through a simple notation for specifying
-material for each slide within a frame. Beamer supports
-bibliographies, appendicies and transitions. Short versions of
-title, authors, institute can also be specified as optional
-parameters. A \plainframe{} allows a picture, for example, to
-fill the whole frame. Support figure and table environments,
-transparency effects, a \transduration command, animation
-commands, a pauses environment. Beamer also provides
+The beamer LaTeX class can be used for producing slides. The class works
+in both PostScript and direct PDF output modes, using the pgf graphics
+system for visual effects. Content is created in the frame environment,
+and each frame can be made up of a number of slides using a simple
+notation for specifying material to appear on each slide within a frame.
+Short versions of title, authors, institute can also be specified as
+optional parameters. Whole frame graphics are supported by plain frames.
+The class supports figure and table environments, transparency effects,
+varying slide transitions and animations. Beamer also provides
 compatibility with other packages like prosper. The package now
-incorporates the functionality of the former translator
-package, which is used for customising the package for use in
-other language environments.
+incorporates the functionality of the former translator package, which
+is used for customising the package for use in other language
+environments. Beamer depends on the following other packages: atbegshi,
+etoolbox, hyperref, ifpdf, pgf, and translator.
 
-%post
-%{_sbindir}/texlive.post
-
-%postun
-if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-fi
-
-#-----------------------------------------------------------------------
-%files
-%{_texmfdistdir}/tex/latex/beamer
-%doc %{_texmfdistdir}/doc/latex/beamer
-
-#-----------------------------------------------------------------------
-%prep
-%autosetup -p1 -c -a1
-
-%build
-
-%install
-mkdir -p %{buildroot}%{_texmfdistdir}
-cp -fpar tex doc %{buildroot}%{_texmfdistdir}
